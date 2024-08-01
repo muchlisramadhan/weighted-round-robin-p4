@@ -44,8 +44,8 @@ iperf_options="$*"
 for i in `seq 1 $num_clients`; do
 
 	# Set server port
-	server_port=$(($base_port+$i));
-	# server_port=8000
+	# server_port=$(($base_port+$i));
+	server_port=8000
 
 	# Report file includes server ip, server port and test duration
 	report_file=${report_base}-${server_ip}-${server_port}-${test_duration}.txt
