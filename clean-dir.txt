@@ -1,0 +1,6 @@
+rm -rf log
+rm -rf pcap
+rm -rf iperf_log
+rm -rf *-client.log
+rm -rf *-server1.log
+rm -rf *-server2.log
